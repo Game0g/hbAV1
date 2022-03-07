@@ -1,0 +1,81 @@
+body {
+    background-color: azure;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.im1 {
+    width: 700px;
+    height: 750px;
+}
+
+.bl {
+    border-left: 1.8px solid #c4d0d1;
+}
+
+.br {
+    border-right: 1.8px solid #c4d0d1;
+}
+
+.z1 , .z2 {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 55px;
+}
+
+.btnn, .cb {
+    font-family: 'Rubik', sans-serif;
+}
+
+.cp {
+    font-style: italic;
+}
+
+.cont {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 35px;
+}
+
+@media screen and (max-width: 575px) {
+    img {
+        max-width: 100%;
+    }
+
+    .im1 {
+        width: 400px;
+        height: 425px;
+    }
+
+    .cp {
+        font-size: 15px;
+    }
+
+    .cb {
+        font-size: 13px;
+    }
+
+    .z1 {
+        font-size: 35px;
+    }
+
+}
+  
+
+/*
+.bg1 {
+    background-image: url(http://www.downloadclipart.net/large/20714-blue-smile-design.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.bg2 {
+    background-image: url(http://www.downloadclipart.net/large/20714-blue-smile-design.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.bg3 {
+    background-image: url(http://www.downloadclipart.net/large/20714-blue-smile-design.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+

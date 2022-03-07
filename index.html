@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>С днём рождения!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <div class="container mt-1">
+        <!--Заголовок-->
+        <div class="row mb-3">
+            <div class="col">
+                <h1 class="text-center z1">С днём рождения!!!</h1>
+            </div>
+        </div>
+        <!--Картинка-->
+                <img class="im1 mx-auto d-block shadow mb-1" src="images/DRA.jpg" alt="С днём рождения, Любимая Ася Васильевна!">
+            <div class="d-flex flex-row-reverse">
+                <div class="col-5 cp">
+                    От всего сердца!
+                </div>
+            </div>
+
+        <!--Кнопки-->
+        <div class="row mt-4 text-center btnn">
+            <div class="col">
+                <a class="btn btn-info" href="celebrates.html">Поздравления</a>
+            </div>
+            <div class="col">
+                <a class="btn btn-info" href="video.html">Видео</a>
+            </div>
+            <div class="col">
+                <a class="btn btn-info" href="memories.html">Памятные моменты</a>
+            </div>
+        </div>
+
+        <!--Футер на телефон-->
+        <div class="row d-block d-sm-none">
+            <div class="col text-center fixed-bottom p-5 cont">
+                Мы вас любим!
+            </div>
+        </div>
+    </div>
+    <!--Звездочки-->
+    <script src="js/snowfall.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(document).snowfall({
+                image :"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Blue_Star.svg/2048px-Blue_Star.svg.png",
+                minSize: 10,
+                maxSize:20,
+                maxSpeed: 1
+                });
+        });
+    </script>
+</body>
+</html>
